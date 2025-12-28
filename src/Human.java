@@ -1,12 +1,13 @@
-public class Human {
-    private int age;
-    private String name;
-    private boolean Alive;
+public abstract class Human {
+    protected int age;
+    protected String name;
+    protected boolean alive;
+
 
     public Human(int age, String name, boolean Alive) {
         this.age = age;
         this.name = name;
-        this.Alive = Alive;
+        this.alive = Alive;
     }
 
     public int getAge() {
